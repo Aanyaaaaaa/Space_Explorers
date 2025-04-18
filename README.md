@@ -18,6 +18,7 @@ Main technologies utilised in the development of the project
 JavaScript, ReactJs, Express, Node, MongoDB, HTML5, CSS, StyledComponents, API
 
 <br>
+<<<<<<< HEAD
 
 ```
 Space_Explorers
@@ -345,3 +346,5 @@ Space_Explorers
       └─ game.test.js
 
 ```
+=======
+>>>>>>> c573d2d088940e9df863ade1414ddcff333a2755
