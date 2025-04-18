@@ -5,7 +5,6 @@ A full stack application developed on ReactJS on the front-end and MongoDB and E
 ## Contents 
 
 * [Technologies](#technologies)
-* [Installation](#installation)
 
 <br>
 <img width="1506" alt="Screenshot 2023-01-12 at 13 24 25" src="https://user-images.githubusercontent.com/65739239/212085496-2725a4c3-2861-4c87-9af2-782e56b7c3c9.png">
@@ -20,53 +19,329 @@ JavaScript, ReactJs, Express, Node, MongoDB, HTML5, CSS, StyledComponents, API
 
 <br>
 
-## Installation
-
-cd client
-
 ```
-npm install
-```
+Space_Explorers
+├─ client
+│  ├─ build
+│  │  ├─ asset-manifest.json
+│  │  ├─ images
+│  │  │  ├─ back.png
+│  │  │  ├─ earth.png
+│  │  │  ├─ earth_images
+│  │  │  │  ├─ earth-image-1.png
+│  │  │  │  ├─ earth-image-2.png
+│  │  │  │  ├─ earth-image-3.png
+│  │  │  │  ├─ earth-image-4.png
+│  │  │  │  └─ earth-image-5.png
+│  │  │  ├─ Jupiter
+│  │  │  │  ├─ Jupiter1.png
+│  │  │  │  ├─ Jupiter2.png
+│  │  │  │  ├─ Jupiter3.jpeg
+│  │  │  │  ├─ Jupiter4.png
+│  │  │  │  └─ Jupiter5.jpeg
+│  │  │  ├─ jupiter.png
+│  │  │  ├─ mars.png
+│  │  │  ├─ mars_images
+│  │  │  │  ├─ mars-image-1.png
+│  │  │  │  ├─ mars-image-2.png
+│  │  │  │  ├─ mars-image-3.png
+│  │  │  │  ├─ mars-image-4.png
+│  │  │  │  └─ mars-image-5.png
+│  │  │  ├─ mercury.png
+│  │  │  ├─ mercury_images
+│  │  │  │  ├─ mercury-image-1.png
+│  │  │  │  ├─ mercury-image-2.png
+│  │  │  │  ├─ mercury-image-3.png
+│  │  │  │  ├─ mercury-image-4.png
+│  │  │  │  └─ mercury-image-5.png
+│  │  │  ├─ Neptune
+│  │  │  │  ├─ Neptune1.jpeg
+│  │  │  │  ├─ Neptune2.jpeg
+│  │  │  │  ├─ Neptune3.jpeg
+│  │  │  │  ├─ Neptune4.png
+│  │  │  │  └─ Neptune5.png
+│  │  │  ├─ neptune.png
+│  │  │  ├─ ovni.png
+│  │  │  ├─ Pluto
+│  │  │  │  ├─ Pluto1.png
+│  │  │  │  ├─ Pluto2.jpeg
+│  │  │  │  ├─ Pluto3.png
+│  │  │  │  ├─ Pluto4.jpeg
+│  │  │  │  └─ Pluto5.png
+│  │  │  ├─ pluto.png
+│  │  │  ├─ Saturn
+│  │  │  │  ├─ Saturn1.png
+│  │  │  │  ├─ Saturn2.jpg
+│  │  │  │  ├─ Saturn2.png
+│  │  │  │  ├─ Saturn3.jpeg
+│  │  │  │  ├─ Saturn4.jpeg
+│  │  │  │  └─ Saturn5.jpeg
+│  │  │  ├─ saturn.png
+│  │  │  ├─ solarsystem.gif
+│  │  │  ├─ Submarino.2010.BDRip.XviD.AC3-MANiC-TP.torrent
+│  │  │  ├─ sun.png
+│  │  │  ├─ sun_images
+│  │  │  │  ├─ sun-image-1.png
+│  │  │  │  ├─ sun-image-2.png
+│  │  │  │  ├─ sun-image-3.png
+│  │  │  │  ├─ sun-image-4.png
+│  │  │  │  ├─ sun-image-5.jpeg
+│  │  │  │  └─ sun-image-5.png
+│  │  │  ├─ Uranus
+│  │  │  │  ├─ Uranus1.jpeg
+│  │  │  │  ├─ Uranus2.jpeg
+│  │  │  │  ├─ Uranus3.jpeg
+│  │  │  │  ├─ Uranus4.png
+│  │  │  │  └─ Uranus5.jpeg
+│  │  │  ├─ uranus.png
+│  │  │  ├─ venus.png
+│  │  │  └─ venus_images
+│  │  │     ├─ venus-image-1.png
+│  │  │     ├─ venus-image-2.png
+│  │  │     ├─ venus-image-3.png
+│  │  │     ├─ venus-image-4.png
+│  │  │     └─ venus-image-5.png
+│  │  ├─ index.html
+│  │  ├─ manifest.json
+│  │  ├─ robots.txt
+│  │  ├─ sounds
+│  │  │  └─ space.mp3
+│  │  └─ static
+│  │     ├─ css
+│  │     │  ├─ main.e28e63f1.css
+│  │     │  └─ main.e28e63f1.css.map
+│  │     └─ js
+│  │        ├─ main.16f01b04.js
+│  │        ├─ main.16f01b04.js.LICENSE.txt
+│  │        └─ main.16f01b04.js.map
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ public
+│  │  ├─ images
+│  │  │  ├─ back.png
+│  │  │  ├─ earth.png
+│  │  │  ├─ earth_images
+│  │  │  │  ├─ earth-image-1.png
+│  │  │  │  ├─ earth-image-2.png
+│  │  │  │  ├─ earth-image-3.png
+│  │  │  │  ├─ earth-image-4.png
+│  │  │  │  └─ earth-image-5.png
+│  │  │  ├─ Jupiter
+│  │  │  │  ├─ Jupiter1.png
+│  │  │  │  ├─ Jupiter2.png
+│  │  │  │  ├─ Jupiter3.jpeg
+│  │  │  │  ├─ Jupiter4.png
+│  │  │  │  └─ Jupiter5.jpeg
+│  │  │  ├─ jupiter.png
+│  │  │  ├─ mars.png
+│  │  │  ├─ mars_images
+│  │  │  │  ├─ mars-image-1.png
+│  │  │  │  ├─ mars-image-2.png
+│  │  │  │  ├─ mars-image-3.png
+│  │  │  │  ├─ mars-image-4.png
+│  │  │  │  └─ mars-image-5.png
+│  │  │  ├─ mercury.png
+│  │  │  ├─ mercury_images
+│  │  │  │  ├─ mercury-image-1.png
+│  │  │  │  ├─ mercury-image-2.png
+│  │  │  │  ├─ mercury-image-3.png
+│  │  │  │  ├─ mercury-image-4.png
+│  │  │  │  └─ mercury-image-5.png
+│  │  │  ├─ Neptune
+│  │  │  │  ├─ Neptune1.jpeg
+│  │  │  │  ├─ Neptune2.jpeg
+│  │  │  │  ├─ Neptune3.jpeg
+│  │  │  │  ├─ Neptune4.png
+│  │  │  │  └─ Neptune5.png
+│  │  │  ├─ neptune.png
+│  │  │  ├─ ovni.png
+│  │  │  ├─ Pluto
+│  │  │  │  ├─ Pluto1.png
+│  │  │  │  ├─ Pluto2.jpeg
+│  │  │  │  ├─ Pluto3.png
+│  │  │  │  ├─ Pluto4.jpeg
+│  │  │  │  └─ Pluto5.png
+│  │  │  ├─ pluto.png
+│  │  │  ├─ Saturn
+│  │  │  │  ├─ Saturn1.png
+│  │  │  │  ├─ Saturn2.jpg
+│  │  │  │  ├─ Saturn2.png
+│  │  │  │  ├─ Saturn3.jpeg
+│  │  │  │  ├─ Saturn4.jpeg
+│  │  │  │  └─ Saturn5.jpeg
+│  │  │  ├─ saturn.png
+│  │  │  ├─ solarsystem.gif
+│  │  │  ├─ Submarino.2010.BDRip.XviD.AC3-MANiC-TP.torrent
+│  │  │  ├─ sun.png
+│  │  │  ├─ sun_images
+│  │  │  │  ├─ sun-image-1.png
+│  │  │  │  ├─ sun-image-2.png
+│  │  │  │  ├─ sun-image-3.png
+│  │  │  │  ├─ sun-image-4.png
+│  │  │  │  ├─ sun-image-5.jpeg
+│  │  │  │  └─ sun-image-5.png
+│  │  │  ├─ Uranus
+│  │  │  │  ├─ Uranus1.jpeg
+│  │  │  │  ├─ Uranus2.jpeg
+│  │  │  │  ├─ Uranus3.jpeg
+│  │  │  │  ├─ Uranus4.png
+│  │  │  │  └─ Uranus5.jpeg
+│  │  │  ├─ uranus.png
+│  │  │  ├─ venus.png
+│  │  │  └─ venus_images
+│  │  │     ├─ venus-image-1.png
+│  │  │     ├─ venus-image-2.png
+│  │  │     ├─ venus-image-3.png
+│  │  │     ├─ venus-image-4.png
+│  │  │     └─ venus-image-5.png
+│  │  ├─ index.html
+│  │  ├─ manifest.json
+│  │  ├─ robots.txt
+│  │  └─ sounds
+│  │     └─ space.mp3
+│  └─ src
+│     ├─ App.css
+│     ├─ App.js
+│     ├─ App.test.js
+│     ├─ components
+│     │  ├─ education
+│     │  │  ├─ Planet.css
+│     │  │  ├─ Planet.js
+│     │  │  ├─ PlanetInfo.css
+│     │  │  ├─ PlanetInfo.js
+│     │  │  ├─ PlanetList.js
+│     │  │  └─ SolarSystem.js
+│     │  ├─ game
+│     │  │  ├─ Canvas.css
+│     │  │  ├─ Canvas.js
+│     │  │  ├─ EndGameScreen.js
+│     │  │  ├─ FeedbackQuestion.js
+│     │  │  └─ Question.js
+│     │  ├─ Header.js
+│     │  ├─ Leaderboard.js
+│     │  ├─ Navigation.js
+│     │  └─ PlayGameButton.js
+│     ├─ config.js
+│     ├─ containers
+│     │  ├─ GameContainer.js
+│     │  ├─ HomepageContainer.js
+│     │  └─ Main.js
+│     ├─ image
+│     │  └─ back.png
+│     ├─ index.css
+│     ├─ index.js
+│     ├─ logo.svg
+│     ├─ reportWebVitals.js
+│     ├─ service
+│     │  ├─ PlanetService.js
+│     │  └─ PlayerService.js
+│     └─ setupTests.js
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ server
+│  ├─ db
+│  │  └─ seeds.js
+│  ├─ helpers
+│  │  └─ create_router.js
+│  ├─ index.js
+│  ├─ package-lock.json
+│  ├─ package.json
+│  └─ public
+│     ├─ images
+│     │  ├─ back.png
+│     │  ├─ earth.png
+│     │  ├─ earth_images
+│     │  │  ├─ earth-image-1.png
+│     │  │  ├─ earth-image-2.png
+│     │  │  ├─ earth-image-3.png
+│     │  │  ├─ earth-image-4.png
+│     │  │  └─ earth-image-5.png
+│     │  ├─ Jupiter
+│     │  │  ├─ Jupiter1.png
+│     │  │  ├─ Jupiter2.png
+│     │  │  ├─ Jupiter3.jpeg
+│     │  │  ├─ Jupiter4.png
+│     │  │  └─ Jupiter5.jpeg
+│     │  ├─ jupiter.png
+│     │  ├─ mars.png
+│     │  ├─ mars_images
+│     │  │  ├─ mars-image-1.png
+│     │  │  ├─ mars-image-2.png
+│     │  │  ├─ mars-image-3.png
+│     │  │  ├─ mars-image-4.png
+│     │  │  └─ mars-image-5.png
+│     │  ├─ mercury.png
+│     │  ├─ mercury_images
+│     │  │  ├─ mercury-image-1.png
+│     │  │  ├─ mercury-image-2.png
+│     │  │  ├─ mercury-image-3.png
+│     │  │  ├─ mercury-image-4.png
+│     │  │  └─ mercury-image-5.png
+│     │  ├─ Neptune
+│     │  │  ├─ Neptune1.jpeg
+│     │  │  ├─ Neptune2.jpeg
+│     │  │  ├─ Neptune3.jpeg
+│     │  │  ├─ Neptune4.png
+│     │  │  └─ Neptune5.png
+│     │  ├─ neptune.png
+│     │  ├─ ovni.png
+│     │  ├─ Pluto
+│     │  │  ├─ Pluto1.png
+│     │  │  ├─ Pluto2.jpeg
+│     │  │  ├─ Pluto3.png
+│     │  │  ├─ Pluto4.jpeg
+│     │  │  └─ Pluto5.png
+│     │  ├─ pluto.png
+│     │  ├─ Saturn
+│     │  │  ├─ Saturn1.png
+│     │  │  ├─ Saturn2.jpg
+│     │  │  ├─ Saturn2.png
+│     │  │  ├─ Saturn3.jpeg
+│     │  │  ├─ Saturn4.jpeg
+│     │  │  └─ Saturn5.jpeg
+│     │  ├─ saturn.png
+│     │  ├─ solarsystem.gif
+│     │  ├─ Submarino.2010.BDRip.XviD.AC3-MANiC-TP.torrent
+│     │  ├─ sun.png
+│     │  ├─ sun_images
+│     │  │  ├─ sun-image-1.png
+│     │  │  ├─ sun-image-2.png
+│     │  │  ├─ sun-image-3.png
+│     │  │  ├─ sun-image-4.png
+│     │  │  ├─ sun-image-5.jpeg
+│     │  │  └─ sun-image-5.png
+│     │  ├─ Uranus
+│     │  │  ├─ Uranus1.jpeg
+│     │  │  ├─ Uranus2.jpeg
+│     │  │  ├─ Uranus3.jpeg
+│     │  │  ├─ Uranus4.png
+│     │  │  └─ Uranus5.jpeg
+│     │  ├─ uranus.png
+│     │  ├─ venus.png
+│     │  └─ venus_images
+│     │     ├─ venus-image-1.png
+│     │     ├─ venus-image-2.png
+│     │     ├─ venus-image-3.png
+│     │     ├─ venus-image-4.png
+│     │     └─ venus-image-5.png
+│     ├─ index.html
+│     ├─ manifest.json
+│     ├─ robots.txt
+│     └─ sounds
+│        └─ space.mp3
+└─ tests
+   ├─ chromedriver
+   │  └─ win64-135.0.7049.95
+   │     └─ chromedriver-win64
+   │        ├─ chromedriver.exe
+   │        ├─ LICENSE.chromedriver
+   │        └─ THIRD_PARTY_NOTICES.chromedriver
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ pageObjects
+   │  └─ GamePage.js
+   └─ specs
+      └─ game.test.js
 
-cd server
-
-```
-npm install
-```
-
-Seed the database. Within the server folder with the command
-
-```
-npm run seeds
-```
-
-Run express (leave running in a terminal window). Within the server folder with:
-
-```
-npm run server:dev
-```
-
-Run React environment (leave running in a terminal window). Within client folder:
-
-```
-npm start
-```
-
-If react app is not starting:
-
-```
-try npm update
-```
-
-If that does not fix:
-
-```
-npm audit fix
-
-```
-
-If that does not fix it:
-
-```
-npm audit fix —force
 ```
