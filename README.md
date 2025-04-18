@@ -5,7 +5,6 @@ A full stack application developed on ReactJS on the front-end and MongoDB and E
 ## Contents 
 
 * [Technologies](#technologies)
-* [Installation](#installation)
 
 <br>
 <img width="1506" alt="Screenshot 2023-01-12 at 13 24 25" src="https://user-images.githubusercontent.com/65739239/212085496-2725a4c3-2861-4c87-9af2-782e56b7c3c9.png">
@@ -19,54 +18,3 @@ Main technologies utilised in the development of the project
 JavaScript, ReactJs, Express, Node, MongoDB, HTML5, CSS, StyledComponents, API
 
 <br>
-
-## Installation
-
-cd client
-
-```
-npm install
-```
-
-cd server
-
-```
-npm install
-```
-
-Seed the database. Within the server folder with the command
-
-```
-npm run seeds
-```
-
-Run express (leave running in a terminal window). Within the server folder with:
-
-```
-npm run server:dev
-```
-
-Run React environment (leave running in a terminal window). Within client folder:
-
-```
-npm start
-```
-
-If react app is not starting:
-
-```
-try npm update
-```
-
-If that does not fix:
-
-```
-npm audit fix
-
-```
-
-If that does not fix it:
-
-```
-npm audit fix —force
-```
