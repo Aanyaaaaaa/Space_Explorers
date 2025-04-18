@@ -51,7 +51,6 @@ const Canvas = ({ planets }) => {
     const [gameOver, setGameOver] = useState();
     const [answerCorrect, setAnswerCorrect] = useState(false);
 
-    console.log(planets);
     let planetNodes = planets.map((planet, id) => {
         return (
             <Planet key={id} y={planet.coordinates.y} x={planet.coordinates.x} src={planet.image} />
@@ -88,12 +87,31 @@ const Canvas = ({ planets }) => {
     }
 
     const openPlanet = () => {
-        planets.map((planet) => {
-            if (x === planet.coordinates.x && y === planet.coordinates.y) {
-                return setQuestionToDisplay(planet.questions[0]);
+        if (!planets || planets.length === 0) {
+            console.log("No planets to check");
+            return;
+        }
+        console.log("Player position:", x, y);
+        planets.forEach((planet) => {
+          // Calculate distance between player and planet
+          const dx = x - planet.coordinates.x;
+          const dy = y - planet.coordinates.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+          
+          // If player is within 30 pixels of the planet, show question
+          if (distance < 30) {
+            console.log("Planet detected:", planet.name);
+            console.log("Question data:", planet.questions[0]);
+            
+            // Make sure we're passing the first question object
+            if (planet.questions && planet.questions.length > 0) {
+              setQuestionToDisplay(planet.questions[0]);
             }
+            return; // Stop after finding the first close planet
+          }
         });
-    };
+      };
+    
     const handleGameOverClick = () => {
         gameOver ? setGameOver(false) : setGameOver(true);
         setQuestionToDisplay('');

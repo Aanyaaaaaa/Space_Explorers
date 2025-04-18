@@ -4,8 +4,7 @@ import PlayGameButton from '../components/PlayGameButton';
 import Leaderboard from '../components/Leaderboard';
 import PlayerService from '../service/PlayerService';
 import styled from 'styled-components';
-import NasaAPIkey from './../config.js';
-import config from './../config.js'; // Assuming config.js is located at src/config.js
+import NasaAPIkey from '../config.js';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 

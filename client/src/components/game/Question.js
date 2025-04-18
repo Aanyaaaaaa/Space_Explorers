@@ -35,6 +35,8 @@ const QuestionBtn = styled.button`
 `;
 
 const Question = ({ questionToDisplay, countScore, checkAnswerCorrect }) => {
+    console.log("Question component received:", questionToDisplay);
+    
     const [userAnswer, setUserAnswer] = useState(null);
 
     const handleUserAnswer = (event) => {
